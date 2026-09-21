@@ -20,23 +20,59 @@
 </head>
   
 <body>
+ <header>
+  <h1>Muhamad Raynard Alif</h1>
+  <nav aria-label="Navigasi utama">
+   <ul>
+    <li><a href="#bagian-1">Profil</a></li>
+    <li><a href="#bagian-2">Portofolio</a></li>
+    <li><a href="#bagian-3">Sertifikasi</a></li>
+   </ul>
+  </nav>
+ </header>
+<main>
+ <section id="bagian-1">
+  <h2>Pendidikan</h2>
+<!-- tabel Anda nanti di sini (Lembar D) -->
+ <table>
+  <caption>Pendidikan</caption>
+  <thead>
+   <tr>
+    <th scope="col">Kolom 1</th>
+    <th scope="col">Kolom 2</th>
+    <th scope="col">Kolom 3</th>
+   </tr>
+  </thead>
+<tbody>
+ <tr>
+  <th scope="row">Baris 1</th>
+  <td>Isi</td>
+  <td>Isi</td>
+ </tr>
+<!-- tambahkan minimal dua baris lagi -->
+</tbody>
+</table> 
+   
+ </section>
 
-  <!-- TODO C.1: buat <header> di sini.
-       Isinya: satu <h1> berisi judul halaman Anda.
-       Di dalamnya juga ada <nav> berisi 3 tautan ke bagian halaman. -->
-
-  <!-- TODO C.2: buat <main> di sini sebagai pembungkus semua bagian isi.
-       Di dalamnya ada 2 <section>, masing-masing punya <h2> sendiri. -->
-
-    <!-- TODO D.1: di dalam section pertama, buat tabel data Anda.
-         Wajib ada: <caption>, <thead>, <th scope="col">, dan minimal 3 baris data. -->
-
-    <!-- TODO E.1: di dalam section kedua, buat form Anda.
-         Wajib ada: minimal 3 kolom, setiap kolom punya <label for> yang
-         cocok dengan id input-nya, dan satu atribut validasi. -->
-
-  <!-- TODO C.3: buat <footer> di sini.
-       Isinya: nama Anda, NIM Anda, dan tahun. -->
-
+ <section id="bagian-2">
+  <h2>Pengalaman Kerja</h2>
+<form action="/simpan" method="post">
+<p>
+<label for="nama-kolom">Keterangan kolom</label>
+<input type="text" id="nama-kolom" name="nama-kolom" required>
+</p>
+<!-- tambahkan minimal dua kolom lagi -->
+<button type="submit">Simpan</button>
+</form>
+</section>
+<!-- form Anda nanti di sini (Lembar E) -->
+   
+</section>
+</main>
+<footer>
+ <p>Muhamad Raynard Alif · 20523167 · 2026</p>
+</footer>
 </body>
+  
 </html>
