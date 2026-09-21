@@ -9,7 +9,7 @@ Topik halaman saya: CV Saya.
  
 - Judul halaman: Curriculum Vitae - Muhamad Raynard Alif
 - Deskripsi: Curriculum Vitae Muhamad Raynard Alif, mahasiswa Universitas Islam Indonesia.
-- Tautan navigasi: Profile, Portofolio, Sertifikasi
+- Tautan navigasi: Pendidikan, Pengalaman Kerja, Sertifikasi
 - Dua bagian utama: Pendidikan, Pengalaman Kerja
 - Kolom tabel: Riwayat pendidikan, Institusi, Mulai, Selesai, Program
 - Kolom form: Sertifikasi, Nama sertifikasi, Tanggal sertifikasi, Deskripsi sertifikasi
