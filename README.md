@@ -26,13 +26,13 @@ Tulis bagian yang dibantu AI:
  
 - Berkas gaya yang akan dibuat: tokens.css, base.css,
   layout.css, komponen.css, tema.css
-- Warna utama: #1D3A8C (biru), dipilih karena ...
+- Warna utama: #215E61 (hijau), dipilih karena menyesuaikan warna gambar
  
 ### Token yang saya tetapkan
  
 | Token | Nilai | Untuk apa |
 |---|---|---|
-| --color-primary | #1D3A8C | tombol, tautan, penanda |
+| --color-primary | #215E61 | tombol, tautan, penanda |
 | --color-fg | #0F172A | warna teks utama |
 | --color-bg | #F8FAFC | latar halaman |
 | --radius-md | 0.5rem | sudut tombol dan kartu |
