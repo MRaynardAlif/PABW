@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Curriculum Vitae Muhamad Raynard Alif, mahasiswa Universitas Islam Indonesia.">
+    <title>Curriculum Vitae - Muhamad Raynard Alif</title>
+</head>
+
+<body>
+    <header>
+        <p>Curriculum Vitae</p>
+        <h1>Muhamad Raynard Alif</h1>
+
+        <nav aria-label="Navigasi utama">
+            <ul>
+                <li><a href="#bagian-1">Pendidikan</a></li>
+                <li><a href="#bagian-2">Pengalaman Kerja</a></li>
+                <li><a href="#bagian-2">Sertifikasi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bagian-1">
+            <h2>Pendidikan</h2>
+            <p>
+                Halaman ini menjelaskan profil dan pendidikan saya.
+            </p>
+
+            <figure>
+                <img src="profil.svg"
+                    alt="Ilustrasi Profil CV"
+                    width="640" height="640" loading="lazy">
+                <figcaption>Profil Muhamad Raynard Alif</figcaption>
+            </figure>
+
+            <table>
+                <caption>Riwayat pendidikan Muhamad Raynard Alif</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Institusi</th>
+                        <th scope="col">Mulai</th>
+                        <th scope="col">Selesai</th>
+                        <th scope="col">Program</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Universitas Islam Indonesia</th>
+                        <td>2020</td>
+                        <td>Sekarang</td>
+                        <td>Informatika</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sekolah Menengah Atas</th>
+                        <td>2017</td>
+                        <td>2020</td>
+                        <td>Pendidikan menengah</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sekolah Menengah Pertama</th>
+                        <td>2014</td>
+                        <td>2017</td>
+                        <td>Pendidikan dasar lanjutan</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="bagian-2">
+            <h2>Pengalaman Kerja</h2>
+
+            <table>
+                <caption>Riwayat pekerjaan Muhamad Raynard Alif</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tempat</th>
+                        <th scope="col">Mulai</th>
+                        <th scope="col">Selesai</th>
+                        <th scope="col">Posisi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Cetroo Coffee Cibinong</th>
+                        <td>2021</td>
+                        <td>2022</td>
+                        <td>Full-time Barista</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">PT Arsen Kesuma Indonesia</th>
+                        <td>2023</td>
+                        <td>2024</td>
+                        <td>Junior Programmer</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="bagian-3">
+            <h2>Sertifikasi</h2>
+            <p>Tambahkan sertifikasi melalui formulir berikut.</p>
+
+            <form action="/simpan-sertifikasi" method="post">
+                <p>
+                    <label for="nama-sertifikasi">Nama sertifikasi</label>
+                    <input type="text" id="nama-sertifikasi" name="nama-sertifikasi" required>
+                </p>
+
+                <p>
+                    <label for="tanggal-sertifikasi">Tanggal sertifikasi</label>
+                    <input type="date" id="tanggal-sertifikasi" name="tanggal-sertifikasi" required>
+                </p>
+
+                <p>
+                    <label for="deskripsi-sertifikasi">Deskripsi sertifikasi</label>
+                    <input type="text" id="deskripsi-sertifikasi" name="deskripsi-sertifikasi" required>
+                </p>
+
+                <button type="submit">Simpan sertifikasi</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Muhamad Raynard Alif · 20523167 · Kelas D · 2026</p>
+    </footer>
+</body>
+
+</html>
