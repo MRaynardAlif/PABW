@@ -3,6 +3,15 @@ header {
   border-bottom: 1px solid var(--color-border);
 }
 
+.header-baris > div:first-child {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.tema-kontrol {
+  margin-top: var(--space-3);
+}
+
 .header-baris {                /* <div class="header-baris"> di dalam header */
   display: flex;
   align-items: center;          /* sumbu silang: rata tengah */
@@ -30,6 +39,14 @@ main {
   flex-direction: column;
   gap: var(--section-gap);      /* jarak antar bagian, tanpa margin */
   padding-block: var(--space-6);
+}
+
+.katalog h3 {
+  color: var(--color-primary);
+}
+
+.katalog p {
+  max-width: none;
 }
 
 .katalog {

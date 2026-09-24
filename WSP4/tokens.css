@@ -3,6 +3,7 @@
   --blue-700:  #215E61;
   --blue-500:  #FF9E20;
   --gray-50:   #F8FAFC;
+  --gray-500:  #64748B;
   --gray-900:  #0F172A;
 
   --space-1: 0.3rem;
@@ -26,10 +27,10 @@
   --color-bg:       var(--gray-50);
   --color-fg:       var(--gray-900);
   --color-surface:  #FFFFFF;
-  --color-border:   #D1D5DB;
+  --color-border:   var(--gray-500);
   --color-primary:  var(--blue-700);
   --color-danger:   #B00020;
-  --color-focus:    var(--blue-500);
+  --color-focus:    var(--color-primary);
 
   --card-pad:       var(--space-4);
   --section-gap:    var(--space-6);

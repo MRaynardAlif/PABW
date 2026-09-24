@@ -4,6 +4,12 @@
   gap: var(--space-2);          /* jarak label ke isian, seragam */
 }
 
+form {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 40rem;
+}
+
 label {
   font-size: var(--text-sm);
   font-weight: 600;
@@ -49,3 +55,16 @@ input:user-invalid {
 /* Pesan galat: sembunyikan selama belum tidak-sah, tampilkan saat perlu */
 .pesan-galat       { display: none; color: var(--color-danger); font-size: var(--text-sm); }
 .form-kolom:has(input:user-invalid) .pesan-galat { display: block; }
+
+.tombol-tema {
+  display: inline-block;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  text-decoration: underline;
+}
+
+.tema-kontrol:has(.pengalih-tema:focus-visible) .tombol-tema {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
